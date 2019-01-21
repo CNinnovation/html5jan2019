@@ -5,6 +5,8 @@
 ### Heading 3
 
 
+normal text *italic* **bold**
+
 * one
 * two
 * three
@@ -21,3 +23,21 @@
    * sub two
 * two
 * three
+
+
+[My blog](https://csharp.christiannagel.com)
+
+![my image](link to image)
+
+
+
+```csharp
+public void Foo() 
+{
+}
+```
+
+```javascript
+function foo() {
+}
+```

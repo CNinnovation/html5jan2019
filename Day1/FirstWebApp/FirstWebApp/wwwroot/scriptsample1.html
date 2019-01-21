@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function foo() {
+            // alert("hello, javascript");
+            var x1 = 3;
+            var x2 = "3";
+            if (x1 === x2) {
+                alert("the same");
+            }
+            else {
+                alert("not the same");
+            }
+
+
+        }
+
+        function bar() {
+            let x = 3;
+            {
+                let x = 4;
+            }
+            alert(x);
+        }
+
+        function foobar() {
+            "use strict";
+
+            let s1 = "a string";
+            // S1 = "abc";  // error with use strict!!!
+            alert(s1);
+        }
+
+        function add(x, y) {
+           
+            return x + y;
+        }
+
+        function calladd() {
+            var result = add(31, 11, 89, "abc", 33, null, 44);
+            // alert(result);
+            console.log(result);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="calladd()">click me!</button>
+
+</body>
+</html>
