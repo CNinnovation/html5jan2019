@@ -1,0 +1,17 @@
+body {
+    font-size: 150%;
+}
+.fixedsize {
+    font-size: 24px;
+}
+
+.remsize {
+    font-size: 3rem;
+}
+
+.emsize {
+    font-size: 3em;
+}
+
+
+
