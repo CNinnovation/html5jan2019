@@ -1,4 +1,7 @@
-﻿let book1 = new Object();
+﻿/// <reference path="someotherscript.js"
+
+
+let book1 = new Object();
 book1.title = "Professional C# 7";
 
 book1.display = function () {
