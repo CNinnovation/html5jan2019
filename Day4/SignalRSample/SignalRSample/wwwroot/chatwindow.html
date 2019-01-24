@@ -17,7 +17,7 @@
                 console.log(message);
 
                 let output = document.getElementById("output");
-                output.innerHTML += `message from ${name}: ${message}`;
+                output.innerHTML += `message from ${name}: ${message}<br />`;
             });
 
             connection.start().then(function () {
